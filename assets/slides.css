@@ -35,7 +35,7 @@ section {
 }
 
 h1 {
-    margin-top: 300px;
+    margin-top: 250px;
     text-align: center;
     font-size: 80px;
     font-weight: 700;
@@ -133,8 +133,8 @@ footer {
     width: 100%;
     padding: 20px 30px;
     text-align: right;
-    background-color: rgba(0, 0, 0, 0.40);
-    color: white;
+    color: #D33B64;
+    font-weight: bold;
     font-size: 20px;
     margin: 0 -200px;
 }
