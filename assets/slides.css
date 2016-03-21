@@ -16,7 +16,7 @@ section, .view head > title {
 }
 
 section {
-    padding: 0 200px;
+    padding: 0 100px;
 }
 
 .view section:after {
@@ -71,10 +71,10 @@ p {
 
 p.big-text {
     font-size: 110px;
-    /* font-weight: 600; */
     text-align: justify;
     text-transform: uppercase;
     color: #FE4B75;
+    padding: 100px;
 }
 
 blockquote {
@@ -267,16 +267,19 @@ img#bg {
     background-size: cover;
 }
 
-iframe { display:block; }
+iframe { 
+    display:block; 
+    margin: 0 auto;
+}
 
 .terminal {
-    height: 600px;
+    height: 800px;
     width: 100%;
 }
 div.terminal {
     text-align: center;
     background: #222;
-    padding: 250px;
+    padding: 350px;
 }
 .terminal > button {font-size: 18px;}
 
