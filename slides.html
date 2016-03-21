@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-
 <meta charset="utf-8">
+<html>
 <head>
     <link href="https://bootswatch.com/lumen/bootstrap.min.css" rel="stylesheet"/>
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet"/>
@@ -13,6 +13,8 @@
     <script src="assets/dz.js"></script>
     <title>Chisel</title>
 </head>
+
+<body>
 
 <!-- Your Slides -->
 <!-- One section is one slide -->
@@ -39,11 +41,6 @@
             <div class="terminal" data-url="http://localhost:8080/"></div>
         </div>
     </div>
-    <div role="note">
-        <ul>
-            <li></li>
-        </ul>
-    </div>
 </section>
 
 <!-- 
@@ -54,28 +51,176 @@
 
 <section>
     <div class="vcenter">
-        <h3 style="margin-top:0;">What's the plan?</h3>
-        <ul id="toc">
+        <h3>Stuff to Talk About</h3>
+        <ul id="toc" class="list-unstyled text-center">
             <!-- Auto populated by script -->
         </ul>
     </div>
 </section>
 
 <!-- 
-#==== Brand
+#==== Why command lines?
 #
-##### The new Chisel Logo and brand.
+##### 
 -->
 
-<!-- <section class="section-header">
-    <h2>Brand</h2>
+<section class="section-header">
+    <h2 class="vcenter">Why?</h2>
     <div role="note">
-        <ul>
-            <li>Some notes.</li>
+        <ul><li></li></ul>
+    </div>
+</section>
+
+<section>
+    <div class="hcenter vcenter text-center">
+        <h3>It's super powerful.</h3>
+        <p><code>cat somefile.csv | pbcopy</code></p>
+    </div>
+</section>
+
+<section>
+    <div class="hcenter vcenter text-center">
+        <h3>The tools are awesome.</h3>
+        <p><code>brew cask install google-chrome</code></p>
+        <p><code>npm install -g tty.js</code></p>
+    </div>
+</section>
+
+<section>
+    <div class="hcenter vcenter text-center">
+        <h3>Shenanigans.</h3>
+        <p><code>telnet towel.blinkenlights.nl</code></p>
+    </div>
+</section>
+
+<section>
+    <div class="row hcenter vcenter" style="width:100%;">
+        <div class="facade-minimal" data-url=""> 
+            <div class="terminal" data-url="http://localhost:8080/"></div>
+        </div>
+    </div>
+</section>
+
+<section class="background-image" style="background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(http://i.giphy.com/ZHlGzvZb130nm.gif) no-repeat center center / cover">
+    <div class="hcenter vcenter">
+        <p class="big-text">You look like a <b>hacker</b>.</p>
+    </div>
+</section>
+
+<!-- 
+#==== About Shells
+#
+##### 
+-->
+
+<section class="section-header">
+    <div class="vcenter text-center">
+        <h2 style="color:#333">Shells</h2>
+        <img class="img-contain" src="assets/shell.svg" style="width:50%; margin:50px;"/>
+    </div>
+</section>
+
+<section>
+    <div class="hcenter vcenter text-center">
+        <h3>SH<br/>
+        <small>1971</small></h3>
+    </div>
+</section>
+
+<section>
+    <div class="hcenter vcenter text-center">
+        <h3>
+        <b>B</b>ourne <b>A</b>gain <b>Sh</b>ell
+        <br/>
+        <small>1977</small>
+        </h3>
+    </div>
+</section>
+
+<section>
+    <div class="hcenter vcenter text-center">
+        <h3>
+        ZSh<br/><small>1990</small>
+        </h3>
+    </div>
+</section>
+
+
+<!-- 
+#==== Common Tools
+#
+##### 
+-->
+
+<section class="section-header">
+    <h2 class="vcenter">Tools</h2>
+</section>
+
+<section>
+    <div class="hcenter vcenter text-center">
+        <h3>Editors</h3>
+        <ul class="text-center list-unstyled">
+            <li>Vim</li>
+            <li>Emacs</li>
+            <li>Nano</li>
         </ul>
     </div>
 </section>
 
+<section>
+    <div class="row hcenter vcenter" style="width:100%;">
+        <div class="facade-minimal" data-url=""> 
+            <div class="terminal" data-url="http://localhost:8080/"></div>
+        </div>
+    </div>
+</section>
+
+
+<!-- 
+#==== BASH
+#
+##### 
+-->
+
+<section class="section-header">
+    <h2 class="vcenter">BASH</h2>
+</section>
+
+
+<!-- 
+#==== Time for Dot Files
+#
+##### 
+-->
+
+<section class="section-header">
+    <h2 class="vcenter">Set-up</h2>
+</section>
+
+<!-- 
+#==== Tips
+#
+##### 
+-->
+
+<section class="section-header">
+    <h2 class="vcenter">Cool stuff</h2>
+</section>
+
+<!-- 
+#==== Bonus
+#
+##### 
+-->
+
+<section class="section-header">
+    <h2 class="vcenter">Cooler Stuff</h2>
+</section>
+
+
+
+
+<!---
 <section>
     <div class="row hcenter vcenter" style="width:100%;">
         <div class="col-xs-6">
@@ -107,7 +252,7 @@
 <script>
     $(function ($) {
         var toc = $('ul#toc')
-        $('.section-header > h2').each(function (index, element) {
+        $('.section-header h2').each(function (index, element) {
             toc.append('<li>' + $(element).text() + '</li>')
         });
     });
@@ -119,7 +264,7 @@
         $('.terminal').each(function (i, terminal) {
             var term = $(terminal)
             var url = term.data('url');
-            var btn = $('<button class="btn btn-success btn-lg"><i class="fa fa-plug"></i> Connect</button>');
+            var btn = $('<button class="btn btn-default btn-lg"><i class="fa fa-power-off fa-3x"></i></button>');
             btn.click(function(){
                 var frame =  $('<iframe name="terminal" class="terminal" frameBorder="0"></iframe>');
                 frame.attr('src', url);
@@ -129,4 +274,7 @@
         });
     });
 </script>
+
+</body>
+</html>
 

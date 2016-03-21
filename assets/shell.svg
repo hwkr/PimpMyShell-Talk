@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="1280px" height="1024px" viewBox="0 0 1280 1024" style="enable-background:new 0 0 1280 1024;" xml:space="preserve">
+<g>
+	<rect x="575" y="382" style="fill:#F80000;" width="130" height="65"/>
+	<polygon style="fill:#F80000;" points="510,318 510,254 382,254 382,382 446,382 446,447 510,447 510,382 575,382 575,318 	"/>
+	<polygon style="fill:#F80000;" points="770,254 770,318 705,318 705,382 770,382 770,447 834,447 834,382 898,382 898,254 	"/>
+	<polygon style="fill:#F80000;" points="575,318 705,318 705,254 770,254 770,189 705,189 705,124 510,124 510,254 575,254 	"/>
+	<rect x="382" y="900" style="fill:#F8F8F8;" width="516" height="64"/>
+	<rect x="898" y="835" style="fill:#F8F8F8;" width="130" height="65"/>
+	<rect x="252" y="835" style="fill:#F8F8F8;" width="130" height="65"/>
+	<polygon style="fill:#F8F8F8;" points="1092,706 1092,642 963,642 963,577 834,577 834,512 770,512 770,447 510,447 510,512 
+		446,512 446,577 317,577 317,642 188,642 188,706 128,706 128,835 188,835 188,770 382,770 382,706 446,706 446,642 834,642 
+		834,706 898,706 898,770 1092,770 1092,835 1152,835 1152,706 	"/>
+	<polygon style="fill:#F8F8F8;" points="705,189 834,189 834,124 770,124 770,60 640,60 640,124 705,124 	"/>
+	<polygon style="fill:#B80000;" points="898,254 898,382 834,382 834,512 898,512 898,447 963,447 963,254 	"/>
+	<polygon style="fill:#B80000;" points="317,447 382,447 382,512 446,512 446,382 382,382 382,254 317,254 	"/>
+	<rect x="834" y="189" style="fill:#B80000;" width="64" height="65"/>
+	<rect x="382" y="189" style="fill:#B80000;" width="64" height="65"/>
+	<rect x="446" y="124" style="fill:#B80000;" width="64" height="65"/>
+	<rect x="510" y="60" style="fill:#B80000;" width="130" height="64"/>
+	<rect x="382" y="964" width="516" height="60"/>
+	<rect x="898" y="900" width="130" height="64"/>
+	<rect x="252" y="900" width="130" height="64"/>
+	<polygon points="898,770 898,706 834,706 834,642 446,642 446,706 382,706 382,770 188,770 188,900 252,900 252,835 382,835 
+		382,900 898,900 898,835 1028,835 1028,900 1092,900 1092,770 	"/>
+	<rect x="1092" y="642" width="60" height="64"/>
+	<rect x="128" y="642" width="60" height="64"/>
+	<rect x="1028" y="577" width="64" height="65"/>
+	<rect x="188" y="577" width="64" height="65"/>
+	<rect x="834" y="512" width="194" height="65"/>
+	<rect x="252" y="512" width="194" height="65"/>
+	<rect x="1028" y="447" width="64" height="65"/>
+	<rect x="770" y="447" width="64" height="65"/>
+	<rect x="446" y="447" width="64" height="65"/>
+	<rect x="188" y="447" width="64" height="65"/>
+	<rect x="705" y="382" width="65" height="65"/>
+	<rect x="510" y="382" width="65" height="65"/>
+	<rect x="575" y="318" width="130" height="64"/>
+	<rect x="705" y="254" width="65" height="64"/>
+	<rect x="510" y="254" width="65" height="64"/>
+	<rect x="770" y="189" width="64" height="65"/>
+	<rect x="446" y="189" width="64" height="65"/>
+	<rect x="834" y="124" width="129" height="65"/>
+	<rect x="317" y="124" width="129" height="65"/>
+	<rect x="770" y="60" width="64" height="64"/>
+	<rect x="446" y="60" width="64" height="64"/>
+	<rect x="705" width="65" height="60"/>
+	<rect x="510" width="65" height="60"/>
+	<rect x="1092" y="577" style="fill:#880000;" width="60" height="65"/>
+	<rect x="963" y="577" style="fill:#880000;" width="65" height="65"/>
+	<rect x="252" y="577" style="fill:#880000;" width="65" height="65"/>
+	<rect x="1028" y="512" style="fill:#880000;" width="64" height="65"/>
+	<polygon style="fill:#880000;" points="128,512 128,642 188,642 188,577 252,577 252,512 	"/>
+	<polygon style="fill:#880000;" points="1092,447 1092,318 1028,318 1028,189 898,189 898,254 963,254 963,447 898,447 898,512 
+		1028,512 1028,447 	"/>
+	<polygon style="fill:#880000;" points="252,189 252,318 188,318 188,447 252,447 252,512 382,512 382,447 317,447 317,254 382,254 
+		382,189 	"/>
+	<rect x="834" y="60" style="fill:#880000;" width="64" height="64"/>
+	<rect x="382" y="60" style="fill:#880000;" width="64" height="64"/>
+	<rect x="770" style="fill:#880000;" width="64" height="60"/>
+	<rect x="575" style="fill:#880000;" width="130" height="60"/>
+	<rect x="446" style="fill:#880000;" width="64" height="60"/>
+</g>
+</svg>
